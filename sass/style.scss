@@ -168,6 +168,7 @@
     }
     &:last-child{
         border-bottom: none;
+        padding-bottom: 74px;
     }
 }
 
@@ -231,7 +232,7 @@
 .about-header-row{
     background-image: url('../images/about-bg.jpg');
     background-size: cover;
-    padding-top: 120px;
+    padding-top: 240px;
     padding-bottom: 30px;
     .title{
         color: #f39619;
@@ -241,6 +242,9 @@
         @media (min-width: 768px) {
             font-size: 2.5em;
         }
+    }
+    @media (min-width: 768px) {
+        padding-top: 120px;
     }
 }
 .about-main{
@@ -258,7 +262,7 @@
 .contact-header-row{
     background-image: url('../images/about-bg.jpg');
     background-size: cover;
-    padding-top: 120px;
+    padding-top: 240px;
     padding-bottom: 30px;
     .title{
         color: #f39619;
@@ -268,6 +272,9 @@
         @media (min-width: 768px) {
             font-size: 2.5em;
         }
+    }
+    @media (min-width: 768px) {
+        padding-top: 120px;
     }
 }
 .contact-main{

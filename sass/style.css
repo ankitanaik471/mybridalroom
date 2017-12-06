@@ -134,7 +134,8 @@
     .bridal-room-collection.order .img-wrapper {
       transform: rotate(5deg); } }
   .bridal-room-collection:last-child {
-    border-bottom: none; }
+    border-bottom: none;
+    padding-bottom: 74px; }
 
 .modal-dialog-box {
   position: fixed;
@@ -189,7 +190,7 @@
 .about-header-row {
   background-image: url("../images/about-bg.jpg");
   background-size: cover;
-  padding-top: 120px;
+  padding-top: 240px;
   padding-bottom: 30px; }
   .about-header-row .title {
     color: #f39619;
@@ -199,6 +200,9 @@
     @media (min-width: 768px) {
       .about-header-row .title {
         font-size: 2.5em; } }
+  @media (min-width: 768px) {
+    .about-header-row {
+      padding-top: 120px; } }
 
 .about-main {
   background: rgba(255, 255, 255, 0.5);
@@ -213,7 +217,7 @@
 .contact-header-row {
   background-image: url("../images/about-bg.jpg");
   background-size: cover;
-  padding-top: 120px;
+  padding-top: 240px;
   padding-bottom: 30px; }
   .contact-header-row .title {
     color: #f39619;
@@ -223,6 +227,9 @@
     @media (min-width: 768px) {
       .contact-header-row .title {
         font-size: 2.5em; } }
+  @media (min-width: 768px) {
+    .contact-header-row {
+      padding-top: 120px; } }
 
 .contact-main {
   background: rgba(255, 255, 255, 0.5);
