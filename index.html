@@ -58,7 +58,7 @@
 				<div class="row bridal-room-collection" id="rituals">
 					<div class="col-sm-6 col-md-6 col-lg-6">
 						<div class="img-wrapper">
-							<img src="images/s1.jpg" alt="" class="img-fluid">
+							<img data-src="images/s1.jpg" src="images/s1.jpg" alt="" class="img-fluid">
 							<div class="img-overlay">
 								
 							</div>
@@ -79,7 +79,7 @@
 				<div class="row bridal-room-collection order" id="hairstyles">
 					<div class="col-sm-6 col-md-6 col-lg-6 order-sm-12">
 						<div class="img-wrapper">
-							<img src="images/s2.jpg" alt="" class="img-fluid">
+							<img data-src="images/s2.jpg" src="images/s2.jpg" alt="" class="img-fluid">
 							<div class="img-overlay">
 								
 							</div>
@@ -100,7 +100,7 @@
 				<div class="row bridal-room-collection" id="look">
 					<div class="col-sm-6 col-md-6 col-lg-6">
 						<div class="img-wrapper">
-							<img src="images/s3.jpg" alt="" class="img-fluid">
+							<img data-src="images/s3.jpg" src="images/s3.jpg" alt="" class="img-fluid">
 							<div class="img-overlay">								
 							</div>
 						</div>						
@@ -120,7 +120,7 @@
 				<div class="row bridal-room-collection order" id="sarees">
 					<div class="col-sm-6 col-md-6 col-lg-6 order-sm-12">
 						<div class="img-wrapper">
-							<img src="images/s6.jpg" alt="" class="img-fluid">
+							<img data-src="images/s6.jpg" src="images/s6.jpg" alt="" class="img-fluid">
 							<div class="img-overlay">
 								
 							</div>
@@ -141,7 +141,7 @@
 				<div class="row bridal-room-collection" id="nauvari-sarees">
 					<div class="col-sm-6 col-md-6 col-lg-6">
 						<div class="img-wrapper">
-							<img src="images/s7.jpg" alt="" class="img-fluid">
+							<img data-src="images/s7.jpg" src="images/s7.jpg" alt="" class="img-fluid">
 							<div class="img-overlay">								
 							</div>
 						</div>						
@@ -161,7 +161,7 @@
 				<div class="row bridal-room-collection order" id="mangalsutra">
 					<div class="col-sm-6 col-md-6 col-lg-6 order-sm-12">
 						<div class="img-wrapper">
-							<img src="images/s4.jpg" alt="" class="img-fluid">
+							<img data-src="images/s4.jpg" src="images/s4.jpg" alt="" class="img-fluid">
 							<div class="img-overlay">
 								
 							</div>
@@ -205,6 +205,8 @@
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/jQuery.scrollSpeed.js"></script>
+	<script src="js/jQueryLazyLoad.js"></script>
 	<script>
 		var myIndex = 0;
 		carousel();
@@ -220,6 +222,10 @@
 		    x[myIndex-1].style.display = "block";  
 		    setTimeout(carousel, 2000);
 		}
+
+		$('img').loadScroll(500);
+		jQuery.scrollSpeed(100, 800);
+
 	</script>
   </body>
 </html>
